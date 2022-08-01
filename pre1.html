@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="pre.js" ></script>
+    
+</head>
+<body>
+    <h1 >heading</h1>
+
+    <div class="container">
+        <h1>this is my paragraph</h1>
+        <p id="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias impedit veritatis perferendis cupiditate dicta amet tenetur doloribus exercitationem perspiciatis nesciunt rerum libero magnam eos, praesentium doloremque quo accusantium laudantium repellat? Ad repellat ut autem laboriosam. Recusandae libero magni possimus dignissimos harum illo quasi ullam sit vel vero ducimus, aut impedit enim architecto, ut minus voluptas atque dicta tempore. Dignissimos explicabo corrupti, impedit quidem mollitia perspiciatis quos laudantium magni qui amet nemo harum cum perferendis illo deleniti eveniet dolor et tempore atque quasi rem iste reiciendis sint minus. Ea numquam officiis, aspernatur tempore necessitatibus omnis. Ratione maxime necessitatibus nulla porro, similique tempore at, facere sint omnis voluptate totam iure. Numquam iure impedit eius quidem temporibus. Magni eius dolore, ipsam similique possimus commodi fuga necessitatibus? Asperiores nostrum laboriosam nisi non assumenda. Iste quis facere nihil quam delectus recusandae assumenda quos optio explicabo. Illum nisi, quibusdam fugit temporibus quasi aut minima? Provident doloremque sint blanditiis libero commodi praesentium laboriosam perspiciatis. Repudiandae perspiciatis tempora velit ad odio voluptate eius ipsam, explicabo labore provident omnis totam quae atque iusto quas repellat quod a accusamus facilis. Labore a, corrupti perferendis repellendus alias doloribus reiciendis laboriosam quae. Repudiandae aperiam ipsam dolorem odio temporibus adipisci earum praesentium corrupti doloribus dolore quas totam perferendis ad accusamus, nulla cupiditate accusantium voluptates eveniet eaque molestiae ea, commodi vitae. Laudantium consectetur harum doloremque magnam porro.</p>
+    </div>
+    
+    <button id="btn" onclick="toglehide">show/hide</button>
+    <script>
+    function toglehide(){
+        let btn=document.getElementById('btn');
+        let para=document.getElementById('para');
+        if(para.style.display!='none'){
+        para.style.display='none';
+
+    }
+    else{
+        para.style.display='block';
+    }
+}</script>
+</body>
+</html>
